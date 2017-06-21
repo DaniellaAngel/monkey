@@ -1,0 +1,600 @@
+|episode =  0 |step =  0 |train acc =  0.572 |len= 15.0 |reward = 0 |done = False
+|episode =  0 |step =  100 |train acc =  0.5748 |len= 69.0 |reward = 0 |done = False
+|episode =  0 |step =  200 |train acc =  0.5749 |len= 69.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  0 |step =  300 |train acc =  0.5748 |len= 69.0 |reward = 0 |done = False
+Goal lists====> [46 64 49 17 21 43 29 73 44 65 39 38  6 40 63 72 24 54 48 32 31  8  3 22  4
+ 69 36 25 66 33 57 59 71 53 30 18 13 47 35 16 10 23 37 34 55 45 62 26 50 67
+ 68 27  7  2 14 51 28]
+Acc=====> 0.5787
+length====> 57
+choose train acc =  0.5787 total_train_acc= 0.5753
+choose test acc =  0.5667 total_test_acc= 0.5665
+[ 62.       0.5763]
+|episode =  1 |step =  400 |train acc =  0.5745 |len= 59.0 |reward = 0 |done = False
+|episode =  1 |step =  500 |train acc =  0.569 |len= 49.0 |reward = 0 |done = False
+|episode =  1 |step =  600 |train acc =  0.575 |len= 67.0 |reward = 0 |done = False
+Goal lists====> [36 23 30  6 22  1 18 13 15 42 59 48 47 41 53 33 35 45  9 63 68 29 71  8 24
+  5 14 49 39 70  7 61 28 25 21 20 12 17 16 52 46 65 37 27 11 60 38  4  2 32
+  3 56 69 10 57]
+Acc=====> 0.5781
+length====> 55
+choose train acc =  0.5781 total_train_acc= 0.5753
+choose test acc =  0.5639 total_test_acc= 0.5665
+[ 60.       0.5743]
+|episode =  2 |step =  700 |train acc =  0.5722 |len= 59.0 |reward = 0 |done = False
+|episode =  2 |step =  800 |train acc =  0.5733 |len= 65.0 |reward = 0 |done = False
+Goal lists====> [ 1 53 63 60 35 21 27 34 49 66 30  7 69 20 44 31 57 14 11 42 47 73 24 23 37
+ 40 45 56 71 32 70 61 54 41 29 13 59 33 17 65  6 36 48 68 55  9 15]
+Acc=====> 0.5775
+length====> 47
+[ 52.      0.575]
+|episode =  3 |step =  900 |train acc =  0.5734 |len= 47.0 |reward = 0 |done = False
+Goal lists====> [53 63 34 49 66 30 31 57 73 37 56 70 61 41 29 55  4 60 43 18 39 16 12 58 54
+ 72 67  7 22 62 48 17  6 28  1 46  3 36 52 13 42  8 10 32 11 27 40 45 21 25
+ 71 23 35 44 24]
+Acc=====> 0.5775
+length====> 55
+[ 58.      0.574]
+|episode =  4 |step =  1000 |train acc =  0.5746 |len= 67.0 |reward = 0 |done = False
+|episode =  4 |step =  1100 |train acc =  0.5743 |len= 65.0 |reward = 0 |done = False
+|episode =  4 |step =  1200 |train acc =  0.5769 |len= 55.0 |reward = 0 |done = False
+
+target_params_replaced
+
+Goal lists====> [57 60 54  6 42 50 24 15 61  4 29 62 48 49 11 72 33 46 64  2 51 68 22 20 70
+ 28 30 56 25 37 13  5 41 55 73 43 40 44 34 21 47 35 59 14 18 23  8 32 19 16
+ 36  9 39 27 67 71 63]
+Acc=====> 0.578
+length====> 57
+choose train acc =  0.578 total_train_acc= 0.5753
+choose test acc =  0.5662 total_test_acc= 0.5665
+[ 60.       0.5749]
+Goal lists====> [42 50 15 62 48 72 33 46  2 51 22 20 70 25 41 55 73 40 21 47 59 14  8 19 16
+ 36 39 71 63 10 26 61 13 69 52 58 67 66 34  7 24  1 68 28 64 54 45 57 27 38
+ 23 12  5 11 60 35 31  4 30 65 32]
+Acc=====> 0.5776
+length====> 61
+[ 63.       0.5759]
+|episode =  6 |step =  1300 |train acc =  0.5758 |len= 63.0 |reward = 0 |done = False
+|episode =  6 |step =  1400 |train acc =  0.5733 |len= 57.0 |reward = 0 |done = False
+|episode =  6 |step =  1500 |train acc =  0.5724 |len= 57.0 |reward = 0 |done = False
+|episode =  6 |step =  1600 |train acc =  0.5743 |len= 65.0 |reward = 0 |done = False
+|episode =  6 |step =  1700 |train acc =  0.5748 |len= 53.0 |reward = 0 |done = False
+Goal lists====> [ 7 13 61 38 21 16 20 25 46 71 17 68 22 45 69  2 63 59 12 50 66 14 73 65 42
+ 55  9 64 52 51  3 26 56 43 24 41 40 31 44  8 57 62 60 37 72  6 70 23 58 10
+  4 18 30]
+Acc=====> 0.5776
+length====> 53
+[ 56.       0.5763]
+Goal lists====> [ 7 13 38 21 16 20 25 46 71 17 68 22 45 69  2 63 59 12 50 66 14 73 65 42 55
+  9 64 52 51  3 26 56 43 24 41 40 31 44  8 57 62 60 37 72  6 70 23 58 10  4
+ 18 30 36  5 48 11 33 34 49 19 35]
+Acc=====> 0.5775
+length====> 61
+[ 64.       0.5731]
+Goal lists====> [ 7 16 25 46 71 17 68  2 59 50 66 14 73 65 55 64 52 51 41 40 31 44  8 57 62
+ 60 37 72 70 23 58 10  4 30 36 48 11 33 34 49 19 67 32 47  1 29 53 27  3 61
+ 42 13 35]
+Acc=====> 0.5781
+length====> 53
+choose train acc =  0.5781 total_train_acc= 0.5753
+choose test acc =  0.5687 total_test_acc= 0.5665
+[ 57.       0.5783]
+Goal lists====> [ 7 16 25 46 71 17 68  2 59 50 14 73 65 55 64 52 51 41 40 31 44  8 57 62 60
+ 37 70 23 58 10  4 30 36 48 11 33 34 49 19 67 32 47  1 29 53 27  3 61 42 13
+ 35 54 22 21 63]
+Acc=====> 0.5791
+length====> 55
+choose train acc =  0.5791 total_train_acc= 0.5753
+choose test acc =  0.5689 total_test_acc= 0.5665
+[ 58.       0.5767]
+Goal lists====> [ 7 16 25 46 71 17  2 59 50 14 73 65 55 64 51 41 40 44  8 57 62 60 37 70 58
+ 10  4 30 36 48 11 33 34 49 19 32 47  1 29 53 27  3 61 42 13 35 54 22 21 12
+ 69 72 68 66 18 45 20]
+Acc=====> 0.5775
+length====> 57
+[ 59.       0.5783]
+Goal lists====> [ 7 16 25 46 71 17  2 59 50 14 65 55 64 51 41 40 44 57 62 60 37 70 58 10  4
+ 30 36 48 11 33 34 49 19 32 47  1 29 53 27  3 61 42 13 35 54 22 21 12 69 72
+ 68 66 18 45 20 67 63  6 38]
+Acc=====> 0.5784
+length====> 59
+choose train acc =  0.5784 total_train_acc= 0.5753
+choose test acc =  0.5712 total_test_acc= 0.5665
+[ 62.       0.5756]
+|episode =  12 |step =  1800 |train acc =  0.5719 |len= 37.0 |reward = 0 |done = False
+|episode =  12 |step =  1900 |train acc =  0.5726 |len= 49.0 |reward = 0 |done = False
+|episode =  12 |step =  2000 |train acc =  0.5737 |len= 49.0 |reward = 0 |done = False
+|episode =  12 |step =  2100 |train acc =  0.5742 |len= 59.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  12 |step =  2200 |train acc =  0.5751 |len= 63.0 |reward = 0 |done = False
+Goal lists====> [73 45 71 69 52 12  7 44 40 24 72 34 18 20 53 30 64 31 62  9 21 37 27  2  1
+ 68 56 51  3 25 14 59  4 43 10 33 49  8 58 66 48 15 55 16 41 19 39 35 42  6
+ 23 28 67]
+Acc=====> 0.5778
+length====> 53
+[ 59.       0.5767]
+|episode =  13 |step =  2300 |train acc =  0.5733 |len= 59.0 |reward = 0 |done = False
+|episode =  13 |step =  2400 |train acc =  0.5744 |len= 53.0 |reward = 0 |done = False
+|episode =  13 |step =  2500 |train acc =  0.5721 |len= 53.0 |reward = 0 |done = False
+|episode =  13 |step =  2600 |train acc =  0.5743 |len= 69.0 |reward = 0 |done = False
+Goal lists====> [52 69 63 41 33 59 36 23 53 10 34  7  3 26 17 16 37 27 47 15 31  4 51 38 28
+ 42 50 29 57 18 70 71  8 22 68 21 40 49 24  9 67 11 25 19 30 56  1 46 32 20
+ 64 66 60 35 73 45 58 39 55  2 65]
+Acc=====> 0.5777
+length====> 61
+[ 62.       0.5764]
+Goal lists====> [52 69 63 41 33 59 36 23 53 10 34  7  3 26 17 16 37 27 47 15 31  4 51 38 28
+ 42 50 29 57 18 70 71  8 22 68 21 40 49 24  9 67 11 25 19 30 56  1 46 32 20
+ 64 66 60 35 73 45 58 39  2 65 48]
+Acc=====> 0.5783
+length====> 61
+choose train acc =  0.5783 total_train_acc= 0.5753
+choose test acc =  0.5671 total_test_acc= 0.5665
+[ 64.       0.5756]
+|episode =  15 |step =  2700 |train acc =  0.5731 |len= 65.0 |reward = 0 |done = False
+|episode =  15 |step =  2800 |train acc =  0.5737 |len= 69.0 |reward = 0 |done = False
+|episode =  15 |step =  2900 |train acc =  0.5742 |len= 43.0 |reward = 0 |done = False
+Goal lists====> [43 16 72 60 13 50 71 61 14 69 53  2  8 26 73 17 31 20  5 35 54 49  3 44 57
+ 30 40 32  7 34 11 56 29 67 68 46 65 36 42 51 37 19 55 58 25  1 63 10 47 39
+ 38 66  6 18 59 24 21 23 62]
+Acc=====> 0.578
+length====> 59
+choose train acc =  0.578 total_train_acc= 0.5753
+choose test acc =  0.568 total_test_acc= 0.5665
+[ 60.       0.5757]
+Goal lists====> [16 60 13 50 71 61 14 69 53 73 17 31  5 35 49  3 30  7 34 11 56 29 68 46 65
+ 42 58 25 63 10 39 38 66 18 59 24  4 48 12 15 23 45 40  2 20 33 55 27 57 72
+ 41 62  9 21 37 64  6  1 51 70 22]
+Acc=====> 0.5775
+length====> 61
+[ 63.       0.5765]
+|episode =  17 |step =  3000 |train acc =  0.5746 |len= 71.0 |reward = 0 |done = False
+|episode =  17 |step =  3100 |train acc =  0.5721 |len= 63.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  17 |step =  3200 |train acc =  0.5729 |len= 57.0 |reward = 0 |done = False
+Goal lists====> [13  5 18 12 33 47 67 53 48 62  1 65 52 15 31 59  9 50 55 68 21 24 23  7 29
+ 27 39 63 42 57 56  6 25 73 45 28 61 30 71 64  8 44  2 70 66 41 16 11 14 35
+ 51 69 49 60 26 46 10]
+Acc=====> 0.5783
+length====> 57
+choose train acc =  0.5783 total_train_acc= 0.5753
+choose test acc =  0.5613 total_test_acc= 0.5665
+[ 60.       0.5772]
+|episode =  18 |step =  3300 |train acc =  0.5719 |len= 61.0 |reward = 0 |done = False
+|episode =  18 |step =  3400 |train acc =  0.5746 |len= 63.0 |reward = 0 |done = False
+|episode =  18 |step =  3500 |train acc =  0.5759 |len= 57.0 |reward = 0 |done = False
+Goal lists====> [51 49 17 59 53 22 30 16 64 48 15 54  9 34 61 31 60 26 32 20 69 35 52 43 62
+ 21 36 47 14 46 33 38  7 55 72 39 73 65  4 70  2 41 10 23 57 67 27 37  1  5
+ 18  6 24 66  8 19 40 45 68]
+Acc=====> 0.5784
+length====> 59
+choose train acc =  0.5784 total_train_acc= 0.5753
+choose test acc =  0.5686 total_test_acc= 0.5665
+[ 61.       0.5747]
+|episode =  19 |step =  3600 |train acc =  0.5723 |len= 69.0 |reward = 0 |done = False
+|episode =  19 |step =  3700 |train acc =  0.5759 |len= 63.0 |reward = 0 |done = False
+|episode =  19 |step =  3800 |train acc =  0.5745 |len= 65.0 |reward = 0 |done = False
+|episode =  19 |step =  3900 |train acc =  0.5739 |len= 71.0 |reward = 0 |done = False
+|episode =  19 |step =  4000 |train acc =  0.5729 |len= 69.0 |reward = 0 |done = False
+|episode =  19 |step =  4100 |train acc =  0.574 |len= 65.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  19 |step =  4200 |train acc =  0.5751 |len= 67.0 |reward = 0 |done = False
+|episode =  19 |step =  4300 |train acc =  0.5746 |len= 71.0 |reward = 0 |done = False
+|episode =  19 |step =  4400 |train acc =  0.5736 |len= 67.0 |reward = 0 |done = False
+|episode =  19 |step =  4500 |train acc =  0.5728 |len= 65.0 |reward = 0 |done = False
+|episode =  19 |step =  4600 |train acc =  0.5728 |len= 71.0 |reward = 0 |done = False
+|episode =  19 |step =  4700 |train acc =  0.5727 |len= 69.0 |reward = 0 |done = False
+|episode =  19 |step =  4800 |train acc =  0.5741 |len= 69.0 |reward = 0 |done = False
+|episode =  19 |step =  4900 |train acc =  0.5756 |len= 71.0 |reward = 0 |done = False
+|episode =  19 |step =  5000 |train acc =  0.5751 |len= 71.0 |reward = 0 |done = False
+|episode =  19 |step =  5100 |train acc =  0.5737 |len= 71.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  19 |step =  5200 |train acc =  0.5748 |len= 71.0 |reward = 0 |done = False
+|episode =  19 |step =  5300 |train acc =  0.5741 |len= 53.0 |reward = 0 |done = False
+|episode =  19 |step =  5400 |train acc =  0.5717 |len= 69.0 |reward = 0 |done = False
+|episode =  19 |step =  5500 |train acc =  0.5735 |len= 65.0 |reward = 0 |done = False
+|episode =  19 |step =  5600 |train acc =  0.5736 |len= 69.0 |reward = 0 |done = False
+|episode =  19 |step =  5700 |train acc =  0.5754 |len= 71.0 |reward = 0 |done = False
+|episode =  19 |step =  5800 |train acc =  0.5752 |len= 61.0 |reward = 0 |done = False
+Goal lists====> [47 49 57 16 31 18 50 42 41 23 33 11 37 19  1 36 39 60 26 56 15 70 72 38 67
+  7 21 54 29 51 66 10 45 44 25 59 71  3 63  8 24 62 58  5 32 30  6 61  9 17
+ 28  2  4 69 12 34 64 13 43 68 35 27 40 48 20]
+Acc=====> 0.5779
+length====> 65
+[ 67.       0.5768]
+|episode =  20 |step =  5900 |train acc =  0.5706 |len= 67.0 |reward = 0 |done = False
+|episode =  20 |step =  6000 |train acc =  0.5731 |len= 65.0 |reward = 0 |done = False
+|episode =  20 |step =  6100 |train acc =  0.5739 |len= 61.0 |reward = 0 |done = False
+Goal lists====> [36 72  2 12 26 45 16 63 54 53 58 17  1 68 37 47 57 59 62 46  8 32 50  5 27
+ 66 56  9 49 51 69 40 23 65 64 15  4 52 55 13 25 11 35 39 20 43 34  6 28 71
+  7 33 18]
+Acc=====> 0.5777
+length====> 53
+[ 56.       0.5748]
+
+target_params_replaced
+
+|episode =  21 |step =  6200 |train acc =  0.5764 |len= 63.0 |reward = 0 |done = False
+|episode =  21 |step =  6300 |train acc =  0.5754 |len= 67.0 |reward = 0 |done = False
+|episode =  21 |step =  6400 |train acc =  0.5723 |len= 63.0 |reward = 0 |done = False
+|episode =  21 |step =  6500 |train acc =  0.5725 |len= 65.0 |reward = 0 |done = False
+|episode =  21 |step =  6600 |train acc =  0.5736 |len= 59.0 |reward = 0 |done = False
+|episode =  21 |step =  6700 |train acc =  0.5754 |len= 71.0 |reward = 0 |done = False
+Goal lists====> [64 35 34 30  8 73  3 31 26 65 28 71 51 12 72 41 10 57 59 14 15 39 16 22 62
+ 70 56 52 36  7 21 42 55 11  6 66 40 63 23 53 54 24 27 45 33 49 68 29 32 20
+ 67 69 46 19 18 61  1  5 37  2 38]
+Acc=====> 0.5775
+length====> 61
+[ 64.       0.5758]
+|episode =  22 |step =  6800 |train acc =  0.5744 |len= 71.0 |reward = 0 |done = False
+|episode =  22 |step =  6900 |train acc =  0.5761 |len= 61.0 |reward = 0 |done = False
+|episode =  22 |step =  7000 |train acc =  0.5732 |len= 69.0 |reward = 0 |done = False
+|episode =  22 |step =  7100 |train acc =  0.5738 |len= 67.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  22 |step =  7200 |train acc =  0.575 |len= 71.0 |reward = 0 |done = False
+|episode =  22 |step =  7300 |train acc =  0.5746 |len= 71.0 |reward = 0 |done = False
+|episode =  22 |step =  7400 |train acc =  0.5731 |len= 67.0 |reward = 0 |done = False
+Goal lists====> [29 24  1 10 46 39  5 36 72 41 57  4  3 38 32 58 20 65 22 21 64 61 54  6 68
+ 14 43 26 11 34 51 18 35 49 37 69 73 42 59 19 50 30 17 56 13 63 12 45 28 33
+ 66 27  8 16 48 62 53 67 15]
+Acc=====> 0.5778
+length====> 59
+[ 60.       0.5743]
+|episode =  23 |step =  7500 |train acc =  0.5755 |len= 63.0 |reward = 0 |done = False
+Goal lists====> [24  1 10 46 39  5 36 72 41 57  4  3 38 32 20 65 22 21 64 61 54 68 14 26 11
+ 34 51 18 35 49 37 69 73 42 59 19 50 30 56 13 63 12 45 28 33 66 27 16 48 62
+ 67 15  7 52 31 47 25 60 23  2 40 17  8 71 53]
+Acc=====> 0.5779
+length====> 65
+[ 66.       0.5772]
+|episode =  24 |step =  7600 |train acc =  0.574 |len= 71.0 |reward = 0 |done = False
+|episode =  24 |step =  7700 |train acc =  0.5726 |len= 65.0 |reward = 0 |done = False
+|episode =  24 |step =  7800 |train acc =  0.5742 |len= 67.0 |reward = 0 |done = False
+|episode =  24 |step =  7900 |train acc =  0.5743 |len= 71.0 |reward = 0 |done = False
+|episode =  24 |step =  8000 |train acc =  0.574 |len= 61.0 |reward = 0 |done = False
+|episode =  24 |step =  8100 |train acc =  0.5709 |len= 65.0 |reward = 0 |done = False
+
+target_params_replaced
+
+Goal lists====> [ 1  3 20 70 41 28 14 38 56 15 69 36 71 39 60 30 73 47 57 42 21 32 62 63 52
+  2 10 13 45 23 66 58 59 50 16 51 22 43 11 64 29 33 34 49 68 27  7 37  6  8
+ 40 55 46 31 17 18 25]
+Acc=====> 0.5776
+length====> 57
+[ 59.       0.5766]
+Goal lists====> [ 1  3 20 70 41 28 14 38 56 15 69 36 71 39 60 47 57 42 32 62 63 52  2 10 13
+ 45 23 66 58 59 50 51 22 43 11 64 29 33 34 49 68 27  7 37  6  8 40 55 31 18
+ 25 72 19  5 48 24 54]
+Acc=====> 0.5776
+length====> 57
+[ 62.       0.5749]
+|episode =  26 |step =  8200 |train acc =  0.5741 |len= 63.0 |reward = 0 |done = False
+|episode =  26 |step =  8300 |train acc =  0.5741 |len= 67.0 |reward = 0 |done = False
+Goal lists====> [ 3 41 14 36 60 57 42 52 13 45 59 50 22 64 27 25 72 19  5 48 46 26 21 17 30
+ 68 53 35 65 71 70 23  9 29 55 47 39 51  1  7 44 54 56 69 12 66 15 38 73 62
+ 34 49 24 28 20 37 16 63 33 11  8]
+Acc=====> 0.5788
+length====> 61
+choose train acc =  0.5788 total_train_acc= 0.5753
+choose test acc =  0.5662 total_test_acc= 0.5665
+[ 61.       0.5788]
+Goal lists====> [ 3 41 14 36 60 57 42 52 13 45 59 50 22 64 27 25 72 19  5 48 46 26 21 17 30
+ 68 53 35 65 71 70 23  9 29 55 47 39 51  1  7 44 54 56 69 12 66 15 38 73 62
+ 34 49 24 28 20 37 16 63 33 11  8]
+Acc=====> 0.5788
+length====> 61
+choose train acc =  0.5788 total_train_acc= 0.5753
+choose test acc =  0.5662 total_test_acc= 0.5665
+[ 63.       0.5761]
+|episode =  28 |step =  8400 |train acc =  0.5752 |len= 59.0 |reward = 0 |done = False
+Goal lists====> [ 3 36 45 59 50 27 25 72 19 46 21 17 30 68 35 23 29 55 39  1 44 56 69 66 38
+ 73 62 49 24 20 37 16 33  2 58  6 61 18 13 54 71 10 12 40  4 51 47 64 48 11
+ 53 34  9 22 41 65 63 57 67  8 42  5 60]
+Acc=====> 0.5776
+length====> 63
+[ 65.       0.5772]
+Goal lists====> [36 45 59 50 27 25 72 46 21 17 30 68 35 23 29 55 39  1 44 56 69 66 38 73 62
+ 49 24 20 37 16 33  2 58  6 61 13 54 71 10 12 40  4 51 47 64 53 34  9 22 41
+ 65 63 57  8 42  5 60  7 28]
+Acc=====> 0.5786
+length====> 59
+choose train acc =  0.5786 total_train_acc= 0.5753
+choose test acc =  0.5674 total_test_acc= 0.5665
+[ 61.      0.576]
+|episode =  30 |step =  8500 |train acc =  0.574 |len= 69.0 |reward = 0 |done = False
+|episode =  30 |step =  8600 |train acc =  0.5725 |len= 67.0 |reward = 0 |done = False
+|episode =  30 |step =  8700 |train acc =  0.5743 |len= 69.0 |reward = 0 |done = False
+|episode =  30 |step =  8800 |train acc =  0.5737 |len= 69.0 |reward = 0 |done = False
+|episode =  30 |step =  8900 |train acc =  0.5753 |len= 73.0 |reward = 0 |done = False
+|episode =  30 |step =  9000 |train acc =  0.5738 |len= 67.0 |reward = 0 |done = False
+|episode =  30 |step =  9100 |train acc =  0.5767 |len= 63.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  30 |step =  9200 |train acc =  0.575 |len= 71.0 |reward = 0 |done = False
+|episode =  30 |step =  9300 |train acc =  0.575 |len= 61.0 |reward = 0 |done = False
+|episode =  30 |step =  9400 |train acc =  0.5754 |len= 61.0 |reward = 0 |done = False
+Goal lists====> [71  6 27 66 38 42 28  3 48 37 24 16 41  5 29 65 54 31 39 68  7  9 52 44  4
+ 33 47 69 21 14 46 32  8  1 57 63 35 26 20 59 10 34 58 17 15 49 30  2 62 40
+ 73 60 18 56 23 55 61 50 72 36 45 12 70]
+Acc=====> 0.5776
+length====> 63
+[ 65.       0.5763]
+|episode =  31 |step =  9500 |train acc =  0.5744 |len= 71.0 |reward = 0 |done = False
+|episode =  31 |step =  9600 |train acc =  0.5737 |len= 67.0 |reward = 0 |done = False
+Goal lists====> [28  5 65 54 33 47 14 32  8 58 49 18 31  3 19 40 68 67 44  9 71 17 35 61 23
+ 73 48 20 37 34 69 16 56 41 50 21 39 64 36 42 62 63 52 53 59  2  6 72 25 13
+ 38 29  7]
+Acc=====> 0.5776
+length====> 53
+[ 56.       0.5748]
+Goal lists====> [28  5 65 54 33 47 32  8 58 49 18 31  3 19 40 68 67 44  9 71 17 35 61 23 73
+ 48 20 37 34 69 16 56 41 50 39 64 36 42 62 63 52 53  2  6 72 25 13 38 29  7
+ 45 70 11 27 66 26 30]
+Acc=====> 0.578
+length====> 57
+choose train acc =  0.578 total_train_acc= 0.5753
+choose test acc =  0.5648 total_test_acc= 0.5665
+[ 58.       0.5751]
+|episode =  33 |step =  9700 |train acc =  0.5756 |len= 61.0 |reward = 0 |done = False
+|episode =  33 |step =  9800 |train acc =  0.574 |len= 65.0 |reward = 0 |done = False
+|episode =  33 |step =  9900 |train acc =  0.5739 |len= 61.0 |reward = 0 |done = False
+|episode =  33 |step =  10000 |train acc =  0.5758 |len= 67.0 |reward = 0 |done = False
+Goal lists====> [ 5 23 50 36 62 12 21 53 20 68  7 35 19  6 25 59 46  3 51 33  4 32  8 47 16
+ 14 67 63 26 40 58 27 52 18 54 38 60 69 56 31 73 13  2 48 34 42  1 66 49 29
+ 41 10 44 61 43 11 45 70 57 39 30 24 64 22 15 65  9]
+Acc=====> 0.5777
+length====> 67
+[ 68.       0.5764]
+|episode =  34 |step =  10100 |train acc =  0.5744 |len= 65.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  34 |step =  10200 |train acc =  0.575 |len= 69.0 |reward = 0 |done = False
+|episode =  34 |step =  10300 |train acc =  0.5729 |len= 65.0 |reward = 0 |done = False
+|episode =  34 |step =  10400 |train acc =  0.5744 |len= 67.0 |reward = 0 |done = False
+|episode =  34 |step =  10500 |train acc =  0.5754 |len= 71.0 |reward = 0 |done = False
+|episode =  34 |step =  10600 |train acc =  0.5724 |len= 67.0 |reward = 0 |done = False
+|episode =  34 |step =  10700 |train acc =  0.575 |len= 67.0 |reward = 0 |done = False
+|episode =  34 |step =  10800 |train acc =  0.5753 |len= 73.0 |reward = 0 |done = False
+|episode =  34 |step =  10900 |train acc =  0.5753 |len= 71.0 |reward = 0 |done = False
+|episode =  34 |step =  11000 |train acc =  0.5736 |len= 65.0 |reward = 0 |done = False
+|episode =  34 |step =  11100 |train acc =  0.5755 |len= 67.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  34 |step =  11200 |train acc =  0.5759 |len= 71.0 |reward = 0 |done = False
+|episode =  34 |step =  11300 |train acc =  0.5725 |len= 69.0 |reward = 0 |done = False
+|episode =  34 |step =  11400 |train acc =  0.5748 |len= 71.0 |reward = 0 |done = False
+|episode =  34 |step =  11500 |train acc =  0.5747 |len= 69.0 |reward = 0 |done = False
+|episode =  34 |step =  11600 |train acc =  0.5736 |len= 71.0 |reward = 0 |done = False
+|episode =  34 |step =  11700 |train acc =  0.5737 |len= 67.0 |reward = 0 |done = False
+|episode =  34 |step =  11800 |train acc =  0.5759 |len= 69.0 |reward = 0 |done = False
+|episode =  34 |step =  11900 |train acc =  0.5743 |len= 59.0 |reward = 0 |done = False
+|episode =  34 |step =  12000 |train acc =  0.5745 |len= 69.0 |reward = 0 |done = False
+|episode =  34 |step =  12100 |train acc =  0.5706 |len= 65.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  34 |step =  12200 |train acc =  0.5751 |len= 69.0 |reward = 0 |done = False
+|episode =  34 |step =  12300 |train acc =  0.5748 |len= 69.0 |reward = 0 |done = False
+|episode =  34 |step =  12400 |train acc =  0.5746 |len= 67.0 |reward = 0 |done = False
+|episode =  34 |step =  12500 |train acc =  0.5741 |len= 53.0 |reward = 0 |done = False
+|episode =  34 |step =  12600 |train acc =  0.574 |len= 71.0 |reward = 0 |done = False
+|episode =  34 |step =  12700 |train acc =  0.5747 |len= 65.0 |reward = 0 |done = False
+|episode =  34 |step =  12800 |train acc =  0.5754 |len= 69.0 |reward = 0 |done = False
+Goal lists====> [20 36 71 42 43 19 24 34 63 69 31  6 50 38 11  7 21  2 55 59 23 66 52 39 29
+ 33 28 46 27 56  1 16 35 67 10 12 53 30 25 15  5 49 65 61 26 41 54 32 72 22
+ 18 57 47 51  9 62 70 48 58 68 14 60 40 64  8  4  3 45 13]
+Acc=====> 0.5781
+length====> 69
+choose train acc =  0.5781 total_train_acc= 0.5753
+choose test acc =  0.5669 total_test_acc= 0.5665
+[ 69.       0.5781]
+|episode =  35 |step =  12900 |train acc =  0.5732 |len= 65.0 |reward = 0 |done = False
+|episode =  35 |step =  13000 |train acc =  0.5714 |len= 67.0 |reward = 0 |done = False
+|episode =  35 |step =  13100 |train acc =  0.574 |len= 69.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  35 |step =  13200 |train acc =  0.5755 |len= 69.0 |reward = 0 |done = False
+|episode =  35 |step =  13300 |train acc =  0.5726 |len= 61.0 |reward = 0 |done = False
+|episode =  35 |step =  13400 |train acc =  0.5735 |len= 69.0 |reward = 0 |done = False
+|episode =  35 |step =  13500 |train acc =  0.5751 |len= 69.0 |reward = 0 |done = False
+|episode =  35 |step =  13600 |train acc =  0.5746 |len= 71.0 |reward = 0 |done = False
+|episode =  35 |step =  13700 |train acc =  0.5737 |len= 69.0 |reward = 0 |done = False
+|episode =  35 |step =  13800 |train acc =  0.5731 |len= 71.0 |reward = 0 |done = False
+|episode =  35 |step =  13900 |train acc =  0.5736 |len= 71.0 |reward = 0 |done = False
+|episode =  35 |step =  14000 |train acc =  0.5753 |len= 71.0 |reward = 0 |done = False
+|episode =  35 |step =  14100 |train acc =  0.5725 |len= 65.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  35 |step =  14200 |train acc =  0.5725 |len= 65.0 |reward = 0 |done = False
+|episode =  35 |step =  14300 |train acc =  0.573 |len= 69.0 |reward = 0 |done = False
+|episode =  35 |step =  14400 |train acc =  0.5737 |len= 65.0 |reward = 0 |done = False
+Goal lists====> [ 3 57 16 40 55 60 18 22 54 33 63 41 30 39 49 25 58 73 23 64 13 66 43 21  5
+ 46 70 72 28 62  9 69 32 12  8 50 38 59 36 34 48  6 29 65 14 17 42 26 27 53
+ 68 45  4 31 67 10  2 52 47 19 20 51 35 56  1 11  7]
+Acc=====> 0.5775
+length====> 67
+[ 68.       0.5766]
+|episode =  36 |step =  14500 |train acc =  0.5743 |len= 67.0 |reward = 0 |done = False
+|episode =  36 |step =  14600 |train acc =  0.5746 |len= 67.0 |reward = 0 |done = False
+|episode =  36 |step =  14700 |train acc =  0.5731 |len= 67.0 |reward = 0 |done = False
+|episode =  36 |step =  14800 |train acc =  0.574 |len= 69.0 |reward = 0 |done = False
+|episode =  36 |step =  14900 |train acc =  0.5739 |len= 71.0 |reward = 0 |done = False
+|episode =  36 |step =  15000 |train acc =  0.5743 |len= 63.0 |reward = 0 |done = False
+|episode =  36 |step =  15100 |train acc =  0.5747 |len= 57.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  36 |step =  15200 |train acc =  0.5737 |len= 61.0 |reward = 0 |done = False
+|episode =  36 |step =  15300 |train acc =  0.5741 |len= 71.0 |reward = 0 |done = False
+|episode =  36 |step =  15400 |train acc =  0.5767 |len= 59.0 |reward = 0 |done = False
+|episode =  36 |step =  15500 |train acc =  0.5756 |len= 67.0 |reward = 0 |done = False
+|episode =  36 |step =  15600 |train acc =  0.5746 |len= 61.0 |reward = 0 |done = False
+Goal lists====> [14  1  3 30 25 55 44 67  8 50 31 69 21 46 37 41 62 71 64 18  2 22 72 33 38
+ 56 63 12 35 48 65 52  6  4 51 40 70 32 17  9 34 45 57 24 26 39 54 27 23 73
+ 66  7  5 59 53 16 42]
+Acc=====> 0.5776
+length====> 57
+[ 61.       0.5752]
+|episode =  37 |step =  15700 |train acc =  0.5747 |len= 67.0 |reward = 0 |done = False
+|episode =  37 |step =  15800 |train acc =  0.5755 |len= 71.0 |reward = 0 |done = False
+|episode =  37 |step =  15900 |train acc =  0.5752 |len= 69.0 |reward = 0 |done = False
+|episode =  37 |step =  16000 |train acc =  0.5757 |len= 69.0 |reward = 0 |done = False
+|episode =  37 |step =  16100 |train acc =  0.5725 |len= 65.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  37 |step =  16200 |train acc =  0.5729 |len= 69.0 |reward = 0 |done = False
+|episode =  37 |step =  16300 |train acc =  0.573 |len= 67.0 |reward = 0 |done = False
+|episode =  37 |step =  16400 |train acc =  0.5745 |len= 71.0 |reward = 0 |done = False
+|episode =  37 |step =  16500 |train acc =  0.575 |len= 65.0 |reward = 0 |done = False
+|episode =  37 |step =  16600 |train acc =  0.5746 |len= 69.0 |reward = 0 |done = False
+|episode =  37 |step =  16700 |train acc =  0.5743 |len= 69.0 |reward = 0 |done = False
+|episode =  37 |step =  16800 |train acc =  0.5766 |len= 67.0 |reward = 0 |done = False
+|episode =  37 |step =  16900 |train acc =  0.5745 |len= 67.0 |reward = 0 |done = False
+|episode =  37 |step =  17000 |train acc =  0.5749 |len= 71.0 |reward = 0 |done = False
+|episode =  37 |step =  17100 |train acc =  0.5741 |len= 71.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  37 |step =  17200 |train acc =  0.5737 |len= 67.0 |reward = 0 |done = False
+|episode =  37 |step =  17300 |train acc =  0.5728 |len= 63.0 |reward = 0 |done = False
+|episode =  37 |step =  17400 |train acc =  0.5738 |len= 71.0 |reward = 0 |done = False
+|episode =  37 |step =  17500 |train acc =  0.5729 |len= 61.0 |reward = 0 |done = False
+|episode =  37 |step =  17600 |train acc =  0.574 |len= 63.0 |reward = 0 |done = False
+|episode =  37 |step =  17700 |train acc =  0.5721 |len= 57.0 |reward = 0 |done = False
+|episode =  37 |step =  17800 |train acc =  0.5744 |len= 71.0 |reward = 0 |done = False
+|episode =  37 |step =  17900 |train acc =  0.5738 |len= 69.0 |reward = 0 |done = False
+|episode =  37 |step =  18000 |train acc =  0.5748 |len= 65.0 |reward = 0 |done = False
+|episode =  37 |step =  18100 |train acc =  0.5762 |len= 61.0 |reward = 0 |done = False
+Goal lists====> [ 6  7 20 15 40 19  4 68 33 30 45 50 43  5 27 52 21 57  9 73 38 35 59 64 10
+ 22 55 32 28 48 60 18 39 65 14 26 51 16 66 69 17 56  8 44 46 13 41 12 24  1
+ 34 54 62 36 71 47 23  3 67  2 37]
+Acc=====> 0.578
+length====> 61
+choose train acc =  0.578 total_train_acc= 0.5753
+choose test acc =  0.5678 total_test_acc= 0.5665
+[ 64.       0.5754]
+
+target_params_replaced
+
+|episode =  38 |step =  18200 |train acc =  0.5749 |len= 67.0 |reward = 0 |done = False
+|episode =  38 |step =  18300 |train acc =  0.5723 |len= 69.0 |reward = 0 |done = False
+|episode =  38 |step =  18400 |train acc =  0.574 |len= 65.0 |reward = 0 |done = False
+|episode =  38 |step =  18500 |train acc =  0.5743 |len= 67.0 |reward = 0 |done = False
+|episode =  38 |step =  18600 |train acc =  0.5738 |len= 71.0 |reward = 0 |done = False
+|episode =  38 |step =  18700 |train acc =  0.5727 |len= 69.0 |reward = 0 |done = False
+|episode =  38 |step =  18800 |train acc =  0.5743 |len= 69.0 |reward = 0 |done = False
+|episode =  38 |step =  18900 |train acc =  0.5742 |len= 67.0 |reward = 0 |done = False
+Goal lists====> [46 10 33 26  4 27 30 57 48 19 59 42  8 35 41 18 28 61 38 65 36 68 58 16 60
+ 52  5 49 24 47 12  9 13 17 44 56 66 67 21 31 39 55 62 73  3 15 20  2 40 22
+ 71 32 45 43 69 63 11 54 25 64 70]
+Acc=====> 0.5777
+length====> 61
+[ 64.       0.5756]
+|episode =  39 |step =  19000 |train acc =  0.5743 |len= 69.0 |reward = 0 |done = False
+|episode =  39 |step =  19100 |train acc =  0.574 |len= 57.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  39 |step =  19200 |train acc =  0.5741 |len= 67.0 |reward = 0 |done = False
+|episode =  39 |step =  19300 |train acc =  0.5725 |len= 67.0 |reward = 0 |done = False
+|episode =  39 |step =  19400 |train acc =  0.5743 |len= 65.0 |reward = 0 |done = False
+|episode =  39 |step =  19500 |train acc =  0.5752 |len= 61.0 |reward = 0 |done = False
+Goal lists====> [24 33 32  2 51 71 15 61 10 23 36 58 39 35 56 34 63 28 22  6  9 50 70 41 54
+ 72 38 46 17 20  1 47 66  8 37 40 30 45 16 57 67 55 52 13 49 27 69 42 14 25
+ 26 60 11 31 21 68  4 65  7 18 29 73 62 59 12 43 64]
+Acc=====> 0.5777
+length====> 67
+[ 67.       0.5777]
+Goal lists====> [24 33 32  2 51 71 15 61 10 23 36 58 39 35 56 34 63 28 22  6  9 50 70 41 54
+ 72 38 46 17 20  1 47 66  8 37 40 30 45 16 57 67 55 52 13 49 27 69 42 14 25
+ 26 60 11 31 21 68  4 65  7 18 29 73 62 59 12 43 64]
+Acc=====> 0.5777
+length====> 67
+[ 69.       0.5768]
+|episode =  41 |step =  19600 |train acc =  0.5732 |len= 69.0 |reward = 0 |done = False
+|episode =  41 |step =  19700 |train acc =  0.5743 |len= 67.0 |reward = 0 |done = False
+|episode =  41 |step =  19800 |train acc =  0.5718 |len= 69.0 |reward = 0 |done = False
+|episode =  41 |step =  19900 |train acc =  0.5745 |len= 71.0 |reward = 0 |done = False
+|episode =  41 |step =  20000 |train acc =  0.5758 |len= 65.0 |reward = 0 |done = False
+|episode =  41 |step =  20100 |train acc =  0.5742 |len= 71.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  41 |step =  20200 |train acc =  0.5729 |len= 63.0 |reward = 0 |done = False
+|episode =  41 |step =  20300 |train acc =  0.5768 |len= 61.0 |reward = 0 |done = False
+Goal lists====> [ 6 41 70 66 52 13 29 16 46 49 31 11 27 51 54 20 62 37 33  1 17 34  4 38  2
+ 45  5 73 18 42 71 56 48 39 47 58 32 25 64 59 23 69 50  3 68 72 65 19 61 63
+ 35 21  8 60 67 14 57 24 30 43 28]
+Acc=====> 0.5775
+length====> 61
+[ 62.       0.5758]
+|episode =  42 |step =  20400 |train acc =  0.576 |len= 67.0 |reward = 0 |done = False
+|episode =  42 |step =  20500 |train acc =  0.5741 |len= 71.0 |reward = 0 |done = False
+|episode =  42 |step =  20600 |train acc =  0.5744 |len= 71.0 |reward = 0 |done = False
+|episode =  42 |step =  20700 |train acc =  0.5729 |len= 69.0 |reward = 0 |done = False
+|episode =  42 |step =  20800 |train acc =  0.5767 |len= 67.0 |reward = 0 |done = False
+|episode =  42 |step =  20900 |train acc =  0.5752 |len= 67.0 |reward = 0 |done = False
+|episode =  42 |step =  21000 |train acc =  0.574 |len= 71.0 |reward = 0 |done = False
+|episode =  42 |step =  21100 |train acc =  0.5722 |len= 67.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  42 |step =  21200 |train acc =  0.575 |len= 65.0 |reward = 0 |done = False
+|episode =  42 |step =  21300 |train acc =  0.5746 |len= 69.0 |reward = 0 |done = False
+|episode =  42 |step =  21400 |train acc =  0.5761 |len= 69.0 |reward = 0 |done = False
+|episode =  42 |step =  21500 |train acc =  0.5739 |len= 69.0 |reward = 0 |done = False
+|episode =  42 |step =  21600 |train acc =  0.5728 |len= 69.0 |reward = 0 |done = False
+|episode =  42 |step =  21700 |train acc =  0.5727 |len= 69.0 |reward = 0 |done = False
+|episode =  42 |step =  21800 |train acc =  0.5713 |len= 69.0 |reward = 0 |done = False
+|episode =  42 |step =  21900 |train acc =  0.5756 |len= 69.0 |reward = 0 |done = False
+|episode =  42 |step =  22000 |train acc =  0.5718 |len= 65.0 |reward = 0 |done = False
+|episode =  42 |step =  22100 |train acc =  0.5764 |len= 69.0 |reward = 0 |done = False
+
+target_params_replaced
+
+|episode =  42 |step =  22200 |train acc =  0.5727 |len= 63.0 |reward = 0 |done = False
+|episode =  42 |step =  22300 |train acc =  0.5738 |len= 65.0 |reward = 0 |done = False
+Goal lists====> [69 16 67 47 53 51  5  4 63 60 13 61 37  7  1 62 25 39 11 23 33 29 31 46 15
+ 66 42  2 48 50 38 17 59 32 19 43 30 35 55 10 20 45 71 72 28 65 36  9 70 52
+ 68 14 26 27 49 57 12  8 21 41 58 44  3 34 24 54 18]
+Acc=====> 0.5775
+length====> 67
+[ 68.       0.5744]
+|episode =  43 |step =  22400 |train acc =  0.5762 |len= 69.0 |reward = 0 |done = False
+|episode =  43 |step =  22500 |train acc =  0.5739 |len= 65.0 |reward = 0 |done = False
+|episode =  43 |step =  22600 |train acc =  0.5756 |len= 65.0 |reward = 0 |done = False
+|episode =  43 |step =  22700 |train acc =  0.5743 |len= 59.0 |reward = 0 |done = False
+|episode =  43 |step =  22800 |train acc =  0.5747 |len= 69.0 |reward = 0 |done = False
+|episode =  43 |step =  22900 |train acc =  0.5736 |len= 59.0 |reward = 0 |done = False
+Goal lists====> [50 51  2 67 29  8 13  5 73 47 69 64 15 43 40 66 68 62 71  1 61 36  4 58 57
+ 55 70 46 56  9 34 21  7 53 54 10 60 72 31 28 23 49 25 33 65 30 44 48 16 18
+ 38 52 22 20 35  3 26 59 45 42 41  6 12 11 39 24 63 27 32]
+Acc=====> 0.5775
+length====> 69
+[ 69.       0.5775]
+Goal lists====> [50 51  2 67 29  8 13  5 73 47 69 64 15 43 40 66 68 62 71  1 61 36  4 58 57
+ 55 70 46 56  9 34 21  7 53 54 10 60 72 31 28 23 49 25 33 65 30 44 48 16 18
+ 38 52 22 20 35  3 26 59 45 42 41  6 12 11 39 24 63 27 32]
+Acc=====> 0.5775
+length====> 69
+

@@ -9,12 +9,16 @@ import Tkinter as tk
 import random
 import time
 
-dataset = pd.read_csv("dataRL/train99.csv")
-label = pd.read_csv("dataRL/train_label99.csv")
+# dataset = pd.read_csv("dataset/GRF/JCUED03/enMatJCUED03_train.csv")
+dataset = pd.read_csv("dataset/GRF/JUNIWARD03/enMatJUNIWARD03_train.csv")
+
+
+
+# label = pd.read_csv("dataRL/train_label99.csv")
 buttonNames = np.array(dataset.columns.values).astype('int')
 
-
 # 99 0.8352
+#
 
 class Monkey(tk.Tk, object):
     """docstring for Monkey"""
@@ -24,16 +28,26 @@ class Monkey(tk.Tk, object):
         self.n_actions = len(self.action_space)
         self.n_features = 2
         self.objects = []
-        self.REFERLEN = 54
-        self.MAXLEN = 99
-        self.REFERACC = 0.8352
-        self.GOALACC = 0.8370
+        self.REFERLEN = 61
+        self.MAXLEN = 107
+        self.REFERACC = 0.7967
+        self.GOALACC = self.REFERACC
+        # self.REFERLEN = 75
+        # self.MAXLEN = 121
+        # self.REFERACC = 0.8436
+        # self.GOALACC = 0.8450
         self.title("Monkey")
         self.resizable(0,0)
-        self.dataset = pd.read_csv("dataRL/train99.csv")
-        self.label = pd.read_csv("dataRL/train_label99.csv")
-        # self.buttonNames = np.array(self.dataset.columns.values).astype('int')
+        self.dataset = pd.read_csv("dataset/GRF/JCUED03/enMatJCUED03_train.csv")
+        self.label = pd.read_csv("dataset/GRF/JCUED03/enMatJCUED03_train_label.csv")
+        self.test_dataset = pd.read_csv("dataset/GRF/JCUED03/enMatJCUED03_test.csv")
+        self.test_label = pd.read_csv("dataset/GRF/JCUED03/enMatJCUED03_test_label.csv")
+        # self.dataset = pd.read_csv("dataset/GRF/JUNIWARD03/enMatJUNIWARD03_train.csv")
+        # self.label = pd.read_csv("dataset/GRF/JUNIWARD03/enMatJUNIWARD03_train_label.csv")
+        # self.test_dataset = pd.read_csv("dataset/GRF/JUNIWARD03/enMatJUNIWARD03_test.csv")
+        # self.test_label = pd.read_csv("dataset/GRF/JUNIWARD03/enMatJUNIWARD03_test_label.csv")
         self.classifiers = pd.DataFrame()
+        self.resetClassifier = pd.DataFrame()
         self._build_monkey()
 
     def _build_monkey(self):
@@ -60,8 +74,18 @@ class Monkey(tk.Tk, object):
                 button.grid(row=8, column=item-10*7, pady=5)
             if item > 80 and item < 91:
                 button.grid(row=9, column=item-10*8, pady=5)
-            if item > 90 and item< 100:
+            if item > 90 and item < 101:
                 button.grid(row=10, column=item-10*9, pady=5)
+            if item > 100 and item< 111:
+                button.grid(row=11, column=item-10*10, pady=5)
+            if item > 110 and item< 121:
+                button.grid(row=12, column=item-10*11, pady=5)
+            if item > 120 and item< 131:
+                button.grid(row=13, column=item-10*12, pady=5)
+            if item > 130 and item< 141:
+                button.grid(row=14, column=item-10*13, pady=5)
+            if item > 140 and item< 151:
+                button.grid(row=15, column=item-10*14, pady=5)
             self.objects.append(button)
 
         entry_font = tkFont.Font(size=12)  
@@ -70,11 +94,11 @@ class Monkey(tk.Tk, object):
         self.objects.append(entry)
 
         goalButton = Button(self,text="Goal",bg = "blue",fg = "white")
-        goalButton.grid(row=11,column=0,columnspan=5,sticky=N+W+S+E,padx=5,pady=5)
+        goalButton.grid(row=16,column=0,columnspan=5,sticky=N+W+S+E,padx=5,pady=5)
         self.objects.append(goalButton)
 
         fireButton = Button(self,text="Fire",bg = "blue",fg = "white")
-        fireButton.grid(row=11,column=5,columnspan=5,sticky=N+W+S+E,padx=5,pady=5)
+        fireButton.grid(row=16,column=5,columnspan=5,sticky=N+W+S+E,padx=5,pady=5)
         self.objects.append(fireButton)
 
 
@@ -82,6 +106,7 @@ class Monkey(tk.Tk, object):
         # self.mainloop()
 
     def reset(self):
+        self.classifiers = self.resetClassifier
         self.init_classifiers = np.array(random.sample(list(self.dataset.columns.values),11)).astype('int')
         for item in self.init_classifiers:
             self.objects[item-1].select()
@@ -123,45 +148,66 @@ class Monkey(tk.Tk, object):
 
     def step(self,action):
         if len(self.classifiers.columns.values)%2 == 0:
-                dropn0 = random.sample(list(self.classifiers.columns.values),1)
-                self.classifiers.drop(dropn0,axis=1,inplace=True)
-        s = np.array([len(self.classifiers.columns.values),self.init_accuracy])
+                dropn01 = random.sample(list(self.classifiers.columns.values),1)
+                for item01 in dropn01:
+                    self.objects[item01-1].deselect()
+                self.classifiers.drop(dropn01,axis=1,inplace=True)
+        if len(self.classifiers.columns.values) == 10 or len(self.classifiers.columns.values) < 10:
+            self.init_classifiers = np.array(random.sample(list(self.dataset.columns.values),11)).astype('int')
+            for item in self.init_classifiers:
+                self.objects[item-1].select()
+            self.initones = np.hstack((np.array([1]),)*11)
+            self.classifiers[self.init_classifiers] = self.dataset.iloc[:,self.init_classifiers-self.initones]
+        
+        pred_labels0 = self.pred_label()
+        accuracy0 = self.caculate_acc(pred_labels0)
+        s = np.array([len(self.classifiers.columns.values),accuracy0])
+        midCalssifiers = self.classifiers
         if action == 0:
-            arr0 = np.array(random.sample(list(self.dataset.columns.values),10)).astype('int')
-            arrnd = np.hstack((np.array([1]),)*10)
+            arr0 = np.array(random.sample(list(self.dataset.columns.values),5)).astype('int')
+            arrnd = np.hstack((np.array([1]),)*5)
             for item in arr0:
                 self.objects[item-1].select()
             self.classifiers[arr0] = self.dataset.iloc[:,arr0-arrnd]
 
             if len(self.classifiers.columns.values)%2 == 0:
-                dropn0 = random.sample(list(self.classifiers.columns.values),1)
-                self.classifiers.drop(dropn0,axis=1,inplace=True)
+                dropn02 = random.sample(list(self.classifiers.columns.values),1)
+                for item02 in dropn02:
+                    self.objects[item02-1].deselect()
+                self.classifiers.drop(dropn02,axis=1,inplace=True)
             # print "action0",len(self.classifiers.columns.values)
             pred_labels = self.pred_label()
             accuracy = self.caculate_acc(pred_labels)
             self.objects[-3].delete(0,END)
-            
-
-            s_ = np.array([len(self.classifiers.columns.values),accuracy])
+            if accuracy > accuracy0:
+                s_ = np.array([len(self.classifiers.columns.values),accuracy])
+            else:
+                self.classifiers = midCalssifiers
+                s_ = s
             self.objects[-3].insert(END,s_)
             #self.objects[-3].insert(0,accuracy)
             #self.objects[-3].insert(1,len(self.classifiers.columns.values))
         elif action == 1:
-            dropnN = random.sample(list(self.classifiers.columns.values),2)
+            dropnN = random.sample(list(self.classifiers.columns.values),3)
             for item in dropnN:
                 self.objects[item-1].deselect()
             self.classifiers.drop(dropnN,axis=1,inplace=True)
 
             if len(self.classifiers.columns.values)%2 == 0:
                 dropn1 = random.sample(list(self.classifiers.columns.values),1)
+                for item03 in dropn1:
+                    self.objects[item03-1].deselect()
                 self.classifiers.drop(dropn1,axis=1,inplace=True)
             # print "action1",len(self.classifiers.columns.values)
             pred_labels = self.pred_label()
             accuracy = self.caculate_acc(pred_labels)
             self.objects[-3].delete(0,END)
            
-
-            s_ = np.array([len(self.classifiers.columns.values),accuracy])
+            if accuracy > accuracy0:
+                s_ = np.array([len(self.classifiers.columns.values),accuracy])
+            else:
+                self.classifiers = midCalssifiers
+                s_ = s
             self.objects[-3].insert(END,s_)
             # self.objects[-3].insert(1,len(self.classifiers.columns.values))
 
@@ -169,6 +215,8 @@ class Monkey(tk.Tk, object):
             self.objects[-2].config(bg = "green")
             reward = 1
             done = True
+            self.GOALACC = s_[1]
+            self.resetClassifier = self.classifiers
             print "Goal lists====>",self.classifiers.columns.values
             print "Acc=====>",s_[1]
             print "length====>",len(self.classifiers.columns.values)
@@ -178,8 +226,8 @@ class Monkey(tk.Tk, object):
             done = False
        	#self.objects[-2].config(bg = "blue")
        	#self.objects[-1].config(bg = "blue")
-
-        return s_,reward,done
+        result = self.classifiers.columns.values
+        return s_,reward,done,result
     def render(self):
         time.sleep(0.1)
         self.update()
